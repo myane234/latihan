@@ -1,3 +1,4 @@
+
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,14 +19,27 @@ public class healthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        checkMati();
+
         if (Input.GetKeyDown(KeyCode.T))
         {
             takeDamage(10f); // contoh panggil takeDamage
+            Debug.Log($"Darah: {maxHealth}");
         }
 
         if (Input.GetKeyDown(KeyCode.H))
         {
             heal(10f); // contoh panggil heal
+            Debug.Log($"Darah: {maxHealth}");
+        }
+        
+    }
+
+    void checkMati()
+    {
+        if(maxHealth <= 0)
+        {
+            Debug.Log($"Sudah mati: {maxHealth}");
         }
     }
 

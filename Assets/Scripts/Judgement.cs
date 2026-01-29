@@ -5,7 +5,7 @@ public class Judgement : MonoBehaviour
 {
 
     public Transform[] judgementLines;
-    public KeyCode[] laneKeys;
+    private KeyCode[] laneKeys = new KeyCode[4] { KeyCode.D, KeyCode.F, KeyCode.H, KeyCode.J };
     public float hitWindow = 0.3f;
     public List<noted> notes;
     

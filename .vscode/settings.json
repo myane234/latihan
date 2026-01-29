@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "rythm-learn.sln"
+    "dotnet.defaultSolution": "rythm-learn.sln",
+    "dotnet.preferCSharpExtension": true
 }

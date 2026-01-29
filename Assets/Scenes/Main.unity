@@ -319,7 +319,7 @@ MonoBehaviour:
   - {fileID: 495741139}
   - {fileID: 1035266317}
   - {fileID: 952998670}
-  laneKeys: 00010000010100000201000003010000
+  laneKeys: 1a0100001b0100001c0100001d010000
   hitWindow: 0.3
   notes:
   - {fileID: -8926315340614395236, guid: c618416f79b6a5f41a144c69fe54a46b, type: 3}
